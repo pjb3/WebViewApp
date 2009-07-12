@@ -2,14 +2,21 @@
   <head>
     <title>Hello, World!</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="jquery.js"></script>
+    <script src="app.js" type="text/javascript"></script>
+    <script src="jquery.js" type="text/javascript"></script>
     <script type="text/javascript">
-      jQuery(function($){
-        $('h1').fadeOut()
-      })
+      jQuery(function($) {
+        $('body').append('<p>jQuery works</p>');
+      });
     </script>
   </head>
   <body>
     <h1>Hello, World!</h1>
+    <script type="text/javascript">
+      document.write("<p>Inline JavaScript works</p>");
+    </script>
+    <script type="text/javascript">
+      writeSomething();
+    </script>    
   </body>
 </html>

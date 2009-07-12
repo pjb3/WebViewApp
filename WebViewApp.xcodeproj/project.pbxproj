@@ -13,6 +13,7 @@
 		8663C32C100983D5000A09B6 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 8663C32B100983D5000A09B6 /* index.html */; };
 		8663C3541009867A000A09B6 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 8663C3531009867A000A09B6 /* style.css */; };
 		8663C35F100986FE000A09B6 /* jquery.js in Sources */ = {isa = PBXBuildFile; fileRef = 8663C35E100986FE000A09B6 /* jquery.js */; };
+		8663C497100A1DB6000A09B6 /* app.js in Sources */ = {isa = PBXBuildFile; fileRef = 8663C496100A1DB6000A09B6 /* app.js */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -33,6 +34,7 @@
 		8663C32B100983D5000A09B6 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		8663C3531009867A000A09B6 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 		8663C35E100986FE000A09B6 /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
+		8663C496100A1DB6000A09B6 /* app.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = app.js; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* WebViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -114,6 +116,7 @@
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
 				8663C32B100983D5000A09B6 /* index.html */,
+				8663C496100A1DB6000A09B6 /* app.js */,
 				8663C35E100986FE000A09B6 /* jquery.js */,
 				8663C3531009867A000A09B6 /* style.css */,
 			);
@@ -189,6 +192,7 @@
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				8663C2F6100981C1000A09B6 /* WebViewAppDelegate.m in Sources */,
 				8663C35F100986FE000A09B6 /* jquery.js in Sources */,
+				8663C497100A1DB6000A09B6 /* app.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
